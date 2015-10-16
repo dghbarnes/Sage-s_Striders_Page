@@ -1,0 +1,22 @@
+body{
+  margin-left: 300px;
+    margin-right: 300px;
+    background-color: #E3E5E7;
+}
+div.navbar{
+    text-align: center;
+    border: solid;
+    padding: 20px;
+    }
+div ul li{
+    display: inline;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    border: solid;
+    border-width: 1px;
+}
+img{
+    margin: 10px;
+}
