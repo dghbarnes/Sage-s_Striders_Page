@@ -1,14 +1,17 @@
 body{
-  margin-left: 300px;
+    margin-left: 300px;
     margin-right: 300px;
     background-color: #E3E5E7;
 }
-div.navbar{
+h1{
+    text-align: center;
+}
+.navbar{
     text-align: center;
     border: solid;
     padding: 20px;
     }
-div ul li{
+.navbar ul li{
     display: inline;
     padding: 10px;
     margin-left: 10px;
@@ -19,4 +22,5 @@ div ul li{
 }
 img{
     margin: 10px;
+    float: left;
 }
