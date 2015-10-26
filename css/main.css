@@ -1,7 +1,9 @@
 body{
     margin: auto;
+    
     max-width: 1200px; 
     background-color: #E3E5E7;
+    margin-top: 
 }
 h1{
     text-align: center;
@@ -9,7 +11,12 @@ h1{
 .navbar{
     text-align: center;
     border: solid;
+    border-radius: 20px;
     padding: 20px;
+    position: fixed;
+    top:0px;
+    background-color: #EBBE2D;
+    width: 1200px;
     }
 .navbar ul li{
     display: inline;
@@ -18,7 +25,9 @@ h1{
     margin-right: 10px;
     font-size: 25px;
     border: solid;
-    border-width: 1px;
+    border-width: 3px;
+    background-color: #0795CE;
+    
 }
 img{
     margin: 10px;
@@ -27,3 +36,19 @@ img{
 #img2{
     float: right;
 }
+.navbar a{
+  color:white;
+text-decoration: none;
+font-family: sans-serif
+}
+.navbar a:hover{
+color: #FEFEFE;
+}
+
+#bottom{
+
+}
+#main{
+ margin-top: 100px;   
+}
+
