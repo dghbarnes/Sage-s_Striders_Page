@@ -1,30 +1,36 @@
 body{
     margin: auto;
-    
     max-width: 1200px; 
     background-color: #E3E5E7;
     margin-top: ;
-    background-color: white;
+    background-color: whitesmoke;
 }
 h1{
     text-align: center;
 }
+
 .navbar{
+    margin: auto;
+    max-width: 1200px;
     text-align: center;
     border: solid;
     border-radius: 25px;
     border-color: darkblue;
     padding: 20px;
     position: fixed;
-    top:0px;
+    top: 10px;
+    left: 0px;
+    right: 0px;
     background-color: #EBBE2D;
-    width: 1200px;
+    
 }
 .navbar ul li{
     display: inline;
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    width: auto;
+    
     font-size: 25px;
     border: solid;
     border-radius: 20px;
@@ -45,14 +51,13 @@ img{
 #img2{
     float: right;
 }
-<<<<<<< HEAD
+
 
 #img3{
     margin-left: auto;
     margin-right: auto;
     min-width: 500px;
 }
-=======
 .navbar a{
   color:white;
 text-decoration: none;
@@ -66,7 +71,10 @@ color: #FEFEFE;
 
 }
 #main{
- margin-top: 150px;   
+    margin-top: 130px;
+    background-color: white;
+    padding: 10px; 
+    
 }
 
->>>>>>> 28fb0c69a62132339ef6c9e30f41c5e6ad9a6bcd
+
