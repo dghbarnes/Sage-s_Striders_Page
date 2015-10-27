@@ -4,7 +4,6 @@ body{
     max-width: 1200px; 
     background-color: #E3E5E7;
     margin-top: ;
-    background-color: white;
 }
 h1{
     text-align: center;
@@ -45,14 +44,14 @@ img{
 #img2{
     float: right;
 }
-<<<<<<< HEAD
+
 
 #img3{
     margin-left: auto;
     margin-right: auto;
     min-width: 500px;
 }
-=======
+
 .navbar a{
   color:white;
 text-decoration: none;
@@ -69,4 +68,4 @@ color: #FEFEFE;
  margin-top: 150px;   
 }
 
->>>>>>> 28fb0c69a62132339ef6c9e30f41c5e6ad9a6bcd
+
