@@ -3,7 +3,9 @@ body{
     max-width: 1200px; 
     background-color: #E3E5E7;
     margin-top: ;
+
     background-color: whitesmoke;
+
 }
 h1{
     text-align: center;
@@ -58,6 +60,7 @@ img{
     margin-right: auto;
     min-width: 500px;
 }
+
 .navbar a{
   color:white;
 text-decoration: none;
