@@ -3,7 +3,8 @@ body{
     
     max-width: 1200px; 
     background-color: #E3E5E7;
-    margin-top: 
+    margin-top: ;
+    background-color: white;
 }
 h1{
     text-align: center;
@@ -11,13 +12,14 @@ h1{
 .navbar{
     text-align: center;
     border: solid;
-    border-radius: 20px;
+    border-radius: 25px;
+    border-color: darkblue;
     padding: 20px;
     position: fixed;
     top:0px;
     background-color: #EBBE2D;
     width: 1200px;
-    }
+}
 .navbar ul li{
     display: inline;
     padding: 10px;
@@ -25,7 +27,9 @@ h1{
     margin-right: 10px;
     font-size: 25px;
     border: solid;
-    border-width: 3px;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: darkblue;
     background-color: #0795CE;
     
 }
