@@ -2,18 +2,14 @@ body{
     margin: auto;
     max-width: 1200px; 
     background-color: #E3E5E7;
-    margin-top: ;
-
     background-color: whitesmoke;
-
 }
 h1{
     text-align: center;
 }
-
 .navbar{
     margin: auto;
-    max-width: 1200px;
+    max-width: 1450px;
     text-align: center;
     border: solid;
     border-radius: 25px;
@@ -23,28 +19,24 @@ h1{
     top: 10px;
     left: 0px;
     right: 0px;
-    background-color: #EBBE2D;
-    
+    background-color: #EBBE2D;  
 }
 .navbar ul li{
     display: inline;
+    float: left; 
     padding: 10px;
+    margin-top: -17px;
     margin-left: 10px;
     margin-right: 10px;
-    width: auto;
-    
     font-size: 25px;
     border: solid;
     border-radius: 20px;
     border-width: 4px;
     border-color: darkblue;
-    background-color: #0795CE;
-    
+    background-color: #0795CE;  
 }
-li
-{
-    font-size: 20px;
-    
+li{
+    font-size: 20px; 
 }
 img{
     margin: 10px;
@@ -53,21 +45,20 @@ img{
 #img2{
     float: right;
 }
-
-
 #img3{
     margin-left: auto;
     margin-right: auto;
     min-width: 500px;
 }
-
 .navbar a{
-  color:white;
-text-decoration: none;
-font-family: sans-serif
+    color:white;
+    display: block;
+    text-decoration: none;
+    font-family: sans-serif; 
+    width: 150px; 
 }
 .navbar a:hover{
-color: #FEFEFE;
+    color: #FEFEFE;
 }
 
 #bottom{
@@ -77,7 +68,6 @@ color: #FEFEFE;
     margin-top: 130px;
     background-color: white;
     padding: 10px; 
-    
 }
 
 
