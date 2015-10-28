@@ -4,6 +4,10 @@ body{
     max-width: 1200px; 
     background-color: #E3E5E7;
     margin-top: ;
+<<<<<<< HEAD
+    background-color: whitesmoke;
+=======
+>>>>>>> 164f75e333a6adc22145e151c3bf4ab4f768a4e7
 }
 h1{
     text-align: center;
@@ -18,6 +22,7 @@ h1{
     top:0px;
     background-color: #EBBE2D;
     width: 1200px;
+    
 }
 .navbar ul li{
     display: inline;
@@ -53,10 +58,11 @@ img{
 }
 
 .navbar a{
-  color:white;
+color:white;
 text-decoration: none;
-font-family: sans-serif
+font-family: sans-serif;
 }
+
 .navbar a:hover{
 color: #FEFEFE;
 }
@@ -65,7 +71,13 @@ color: #FEFEFE;
 
 }
 #main{
- margin-top: 150px;   
+ margin-top: 140px;
+
+}
+
+.centerButton{
+margin: auto;
+max-width: 500px;
 }
 
 
