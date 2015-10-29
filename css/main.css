@@ -1,6 +1,7 @@
 body{
     margin: auto;
     max-width: 1200px; 
+<<<<<<< HEAD
     background-color: #E3E5E7;
 <<<<<<< HEAD
     background-color: whitesmoke;
@@ -14,36 +15,40 @@ body{
 >>>>>>> 164f75e333a6adc22145e151c3bf4ab4f768a4e7
 >>>>>>> 0a396a986f0df8020afe359588b33be8070199cc
 >>>>>>> d0f80273c93cc05717c622194954761bf7947ceb
+=======
+
+    background-color: whitesmoke;
+
+
+
+>>>>>>> f848d29a96e4c614bb836c12e951a32a16823cd8
 }
 h1{
     text-align: center;
 }
 .navbar{
     margin: auto;
-    max-width: 1450px;
+    max-width: 1500px;
     text-align: center;
     border: solid;
     border-radius: 25px;
     border-color: darkblue;
-    padding: 20px;
+    padding: 15px;
+    padding-bottom: 35px;
     position: fixed;
-<<<<<<< HEAD
     top: 10px;
     left: 0px;
     right: 0px;
     background-color: #EBBE2D;  
-=======
-    top:0px;
-    background-color: #EBBE2D;
-    width: 1200px;
     
->>>>>>> 0a396a986f0df8020afe359588b33be8070199cc
+    
+    
+
 }
 .navbar ul li{
     display: inline;
     float: left; 
     padding: 10px;
-    margin-top: -17px;
     margin-left: 10px;
     margin-right: 10px;
     font-size: 25px;
@@ -69,17 +74,11 @@ img{
     min-width: 500px;
 }
 .navbar a{
-<<<<<<< HEAD
     color:white;
     display: block;
     text-decoration: none;
     font-family: sans-serif; 
-    width: 150px; 
-=======
-color:white;
-text-decoration: none;
-font-family: sans-serif;
->>>>>>> 0a396a986f0df8020afe359588b33be8070199cc
+    width: 155px; 
 }
 
 .navbar a:hover{
@@ -90,19 +89,14 @@ font-family: sans-serif;
 
 }
 #main{
-<<<<<<< HEAD
     margin-top: 130px;
     background-color: white;
-    padding: 10px; 
-=======
- margin-top: 140px;
-
+    padding: 10px;
+    margin-top: 140px;
 }
-
 .centerButton{
 margin: auto;
 max-width: 500px;
->>>>>>> 0a396a986f0df8020afe359588b33be8070199cc
 }
 
 
