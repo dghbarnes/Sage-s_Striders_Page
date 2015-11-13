@@ -74,6 +74,9 @@ body{
     margin: auto;
     max-width: 75em; 
     background-color: whitesmoke;
+    max-width: 1200px; 
+    background-color: whitesmoke;
+    margin-top: -10px;
 }
 h1{
     text-align: center;
@@ -81,6 +84,7 @@ h1{
 .navbar{
     margin: auto;
     max-width: 93.75em;
+    max-width: 2000px;
     text-align: center;
     border: solid;
     border-radius: 25px;
@@ -88,11 +92,12 @@ h1{
     padding:0.9375em;
     padding-bottom: 2.1875em;
     position: fixed;
-    top: 10px;
+    top: 0px;
     left: 0px;
-    right: 0px;
+    right: 00px;
     background-color: #EBBE2D;  
 }
+
 .navbar ul li{
     display: inline;
     float: left; 
@@ -105,6 +110,15 @@ h1{
     border-width: 0.25em;
     border-color: darkblue;
     background-color: #0795CE;  
+}
+.navbar ul li:hover{
+    background-color: blue;
+}
+.navbar ul li:onfocus{
+    background-color: blue;
+}
+.navbar ul li a:hover{
+    text-decoration-color: lightyellow;
 }
 li{
     font-size: 1.25em; 
@@ -134,6 +148,9 @@ img{
 #bottom{
     
 }
+
+
+
 #main{
     margin-top: 130px;
     background-color: white;
@@ -144,3 +161,12 @@ img{
     margin: auto;
     max-width: 500px;
 }
+    background-color: whitesmoke;
+}
+
+#faq
+{
+    padding: 3em;
+}
+
+>>>>>>> 556326befb66d31c1343d2864be827fd0af8127b
