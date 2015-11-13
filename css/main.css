@@ -1,49 +1,113 @@
+@media (max-width: 1500px){
+    .navbar{
+        font-size:90%; 
+    }
+    .main{
+    max-width: 10em;
+    }
+}
+@media (max-width: 1400px){
+    .navbar{
+        font-size:80%; 
+    }
+}
+@media (max-width: 1300px){
+    .navbar{
+        font-size:80%; 
+    }
+}
+@media (max-width: 1200px){
+    .navbar{
+        font-size:70%; 
+    }
+}
+@media (max-width: 1100px){
+    .navbar{
+        font-size:60%; 
+    }
+}
+@media (max-width: 1000px){
+    .navbar{
+        font-size:50%; 
+    }
+}
+@media (max-width: 900px){
+    .navbar{
+        font-size:40%; 
+    }
+    #main{
+    max-width: 50%;
+    }
+}
+@media (max-width: 800px){
+    .navbar{
+        font-size:35%; 
+    }
+}
+@media (max-width: 700px){
+    .navbar{
+        font-size: 34%; 
+    }
+}
+@media (max-width: 675px){
+    .navbar{
+        font-size: 33%; 
+    }
+}
+@media (max-width: 650px){
+    .navbar{
+        font-size: 34%; 
+    }
+}
+@media (max-width: 600px){
+    .navbar{
+        font-size: 31%; 
+    }
+}
+@media (max-width: 500px){
+    .navbar{
+        font-size: 50%; 
+    }
+}
+
 body{
     margin: auto;
-    max-width: 1200px; 
-
+    max-width: 75em; 
     background-color: whitesmoke;
-
-
-
 }
 h1{
     text-align: center;
 }
 .navbar{
     margin: auto;
-    max-width: 1500px;
+    max-width: 93.75em;
     text-align: center;
     border: solid;
     border-radius: 25px;
     border-color: darkblue;
-    padding: 15px;
-    padding-bottom: 35px;
+    padding:0.9375em;
+    padding-bottom: 2.1875em;
     position: fixed;
     top: 10px;
     left: 0px;
     right: 0px;
     background-color: #EBBE2D;  
-    
-    
-    
-
 }
 .navbar ul li{
     display: inline;
     float: left; 
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 25px;
+    padding: 0.4em;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    font-size: 1.5em;
     border: solid;
-    border-radius: 20px;
-    border-width: 4px;
+    border-radius: 1.25em;
+    border-width: 0.25em;
     border-color: darkblue;
     background-color: #0795CE;  
 }
 li{
-    font-size: 20px; 
+    font-size: 1.25em; 
 }
 img{
     margin: 10px;
@@ -62,15 +126,13 @@ img{
     display: block;
     text-decoration: none;
     font-family: sans-serif; 
-    width: 155px; 
+    width: 6.1875em; 
 }
-
 .navbar a:hover{
     color: #FEFEFE;
 }
-
 #bottom{
-
+    
 }
 #main{
     margin-top: 130px;
@@ -79,8 +141,6 @@ img{
     margin-top: 140px;
 }
 .centerButton{
-margin: auto;
-max-width: 500px;
+    margin: auto;
+    max-width: 500px;
 }
-
-
