@@ -1,34 +1,15 @@
 body{
     margin: auto;
     max-width: 1200px; 
-<<<<<<< HEAD
-    background-color: #E3E5E7;
-<<<<<<< HEAD
     background-color: whitesmoke;
-=======
-    margin-top: ;
-    background-color: whitesmoke;
-<<<<<<< HEAD
-
-=======
-=======
->>>>>>> 164f75e333a6adc22145e151c3bf4ab4f768a4e7
->>>>>>> 0a396a986f0df8020afe359588b33be8070199cc
->>>>>>> d0f80273c93cc05717c622194954761bf7947ceb
-=======
-
-    background-color: whitesmoke;
-
-
-
->>>>>>> f848d29a96e4c614bb836c12e951a32a16823cd8
+    margin-top: -10px;
 }
 h1{
     text-align: center;
 }
 .navbar{
     margin: auto;
-    max-width: 1500px;
+    max-width: 2000px;
     text-align: center;
     border: solid;
     border-radius: 25px;
@@ -36,15 +17,11 @@ h1{
     padding: 15px;
     padding-bottom: 35px;
     position: fixed;
-    top: 10px;
+    top: 0px;
     left: 0px;
-    right: 0px;
+    right: 00px;
     background-color: #EBBE2D;  
-    
-    
-    
-
-}
+    }
 .navbar ul li{
     display: inline;
     float: left; 
@@ -57,6 +34,15 @@ h1{
     border-width: 4px;
     border-color: darkblue;
     background-color: #0795CE;  
+}
+.navbar ul li:hover{
+    background-color: blue;
+}
+.navbar ul li:onfocus{
+    background-color: blue;
+}
+.navbar ul li a:hover{
+    text-decoration-color: lightyellow;
 }
 li{
     font-size: 20px; 
@@ -80,11 +66,9 @@ img{
     font-family: sans-serif; 
     width: 155px; 
 }
-
 .navbar a:hover{
     color: #FEFEFE;
 }
-
 #bottom{
 
 }
