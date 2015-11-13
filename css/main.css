@@ -69,9 +69,13 @@ img{
 .navbar a:hover{
     color: #FEFEFE;
 }
+<<<<<<< HEAD
 #bottom{
 
 }
+=======
+
+>>>>>>> 0b17cef867cae2209d7dae5f9ad61a55e794e655
 #main{
     margin-top: 130px;
     background-color: white;
@@ -79,8 +83,13 @@ img{
     margin-top: 140px;
 }
 .centerButton{
-margin: auto;
-max-width: 500px;
+    margin: auto;
+    max-width: 500px;
+    background-color: whitesmoke;
 }
 
+#faq
+{
+    padding: 3em;
+}
 
