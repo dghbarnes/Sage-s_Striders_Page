@@ -6,31 +6,37 @@
     max-width: 10em;
     }
 }
+
 @media (max-width: 1400px){
     .navbar{
         font-size:80%; 
     }
 }
+
 @media (max-width: 1300px){
     .navbar{
         font-size:80%; 
     }
 }
+
 @media (max-width: 1200px){
     .navbar{
         font-size:70%; 
     }
 }
+
 @media (max-width: 1100px){
     .navbar{
         font-size:60%; 
     }
 }
+
 @media (max-width: 1000px){
     .navbar{
         font-size:50%; 
     }
 }
+
 @media (max-width: 900px){
     .navbar{
         font-size:40%; 
@@ -39,31 +45,37 @@
     max-width: 50%;
     }
 }
+
 @media (max-width: 800px){
     .navbar{
         font-size:35%; 
     }
 }
+
 @media (max-width: 700px){
     .navbar{
         font-size: 34%; 
     }
 }
+
 @media (max-width: 675px){
     .navbar{
         font-size: 33%; 
     }
 }
+
 @media (max-width: 650px){
     .navbar{
         font-size: 34%; 
     }
 }
+
 @media (max-width: 600px){
     .navbar{
         font-size: 31%; 
     }
 }
+
 @media (max-width: 500px){
     .navbar{
         font-size: 50%; 
@@ -78,13 +90,14 @@ body{
     background-color: whitesmoke;
     margin-top: -10px;
 }
+
 h1{
     text-align: center;
 }
+
 .navbar{
     margin: auto;
     max-width: 93.75em;
-    max-width: 2000px;
     text-align: center;
     border: solid;
     border-radius: 25px;
@@ -111,30 +124,38 @@ h1{
     border-color: darkblue;
     background-color: #0795CE;  
 }
+
 .navbar ul li:hover{
     background-color: blue;
 }
+
 .navbar ul li:onfocus{
     background-color: blue;
 }
+
 .navbar ul li a:hover{
     text-decoration-color: lightyellow;
 }
+
 li{
     font-size: 1.25em; 
 }
+
 img{
     margin: 10px;
     float: left;
 }
+
 #img2{
     float: right;
 }
+
 #img3{
     margin-left: auto;
     margin-right: auto;
     min-width: 500px;
 }
+
 .navbar a{
     color:white;
     display: block;
@@ -142,15 +163,13 @@ img{
     font-family: sans-serif; 
     width: 6.1875em; 
 }
+
 .navbar a:hover{
     color: #FEFEFE;
 }
 #bottom{
     
 }
-
-
-
 #main{
     margin-top: 130px;
     background-color: white;
@@ -168,5 +187,3 @@ img{
 {
     padding: 3em;
 }
-
->>>>>>> 556326befb66d31c1343d2864be827fd0af8127b
