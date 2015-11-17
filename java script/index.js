@@ -1,5 +1,6 @@
 
 function clicky() {
-    document.getElementById("click").addEventListener("focus", clicky);
-    document.getElementById("click").style.border = "none";
+    "use strict";
+    document.getElementById("click").style.border.color = "white";
 }
+document.getElementById("click").addEventListener("focus", clicky);

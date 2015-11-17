@@ -1,24 +1,31 @@
 @media (max-width: 1500px){
     .navbar{
-        font-size:90%; 
+        font-size:90%;
+        padding: 90%;
     }
     .main{
     max-width: 10em;
     }
+    body{
+        font-size: 90%;
+    }
 }
 @media (max-width: 1400px){
     .navbar{
-        font-size:80%; 
+        font-size:80%;
+        padding: 80%;
     }
 }
 @media (max-width: 1300px){
     .navbar{
         font-size:80%; 
+        padding: 80%;
     }
 }
 @media (max-width: 1200px){
     .navbar{
-        font-size:70%; 
+        font-size:70%;
+        padding: 70%;
     }
 }
 @media (max-width: 1100px){
@@ -66,7 +73,7 @@
 }
 @media (max-width: 500px){
     .navbar{
-        font-size: 50%; 
+        font-size: 30%; 
     }
 }
 
@@ -84,7 +91,6 @@ h1{
 .navbar{
     margin: auto;
     max-width: 93.75em;
-    max-width: 2000px;
     text-align: center;
     border: solid;
     border-radius: 25px;
@@ -118,7 +124,7 @@ h1{
     background-color: blue;
 }
 .navbar ul li a:hover{
-    text-decoration-color: lightyellow;
+    text-decoration-color: yellow;
 }
 li{
     font-size: 1.25em; 
@@ -161,12 +167,9 @@ img{
     margin: auto;
     max-width: 500px;
 }
-    background-color: whitesmoke;
-}
 
 #faq
 {
     padding: 3em;
 }
 
->>>>>>> 556326befb66d31c1343d2864be827fd0af8127b
