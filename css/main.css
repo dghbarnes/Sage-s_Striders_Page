@@ -4,76 +4,150 @@
         padding: 90%;
     }
     .main{
-    max-width: 10em;
+    max-width: 90%;
+    font-size: 90%;
+    }
+    img{
+    width: 90%;
     }
     body{
         font-size: 90%;
     }
 }
+
 @media (max-width: 1400px){
     .navbar{
         font-size:80%;
         padding: 80%;
     }
+    #main{
+    max-width: 90%;
+    margin: auto;
+    font-size: 90%;
+    }
 }
+
 @media (max-width: 1300px){
     .navbar{
         font-size:80%; 
         padding: 80%;
     }
+    #main{
+    max-width: 80%;
+    margin: auto;
+    font-size: 80%;
+    }
 }
+
 @media (max-width: 1200px){
     .navbar{
         font-size:70%;
         padding: 70%;
     }
+    #main{
+    max-width: 70%;
+    margin: auto;
+    font-size: 70%;
+    }
 }
+
 @media (max-width: 1100px){
     .navbar{
-        font-size:60%; 
+    font-size:60%; 
+    }
+    #main{
+    max-width: 60%;
+    margin: auto;
+    font-size: 60%;
     }
 }
+
 @media (max-width: 1000px){
     .navbar{
-        font-size:50%; 
-    }
-}
-@media (max-width: 900px){
-    .navbar{
-        font-size:40%; 
+    font-size:50%; 
     }
     #main{
     max-width: 50%;
+    margin: auto;
+    font-size:50%;
     }
 }
+
+@media (max-width: 900px){
+    .navbar{
+    font-size:40%; 
+    }
+    #main{
+    max-width: 40%;
+    font-size:40%;
+    }
+}
+
 @media (max-width: 800px){
     .navbar{
-        font-size:35%; 
+    font-size:35%; 
+    }
+    #main{
+    max-width: 35%;
+    margin: auto;
+    font-size:35%;
+        font-size:35%;
     }
 }
+
 @media (max-width: 700px){
     .navbar{
         font-size: 34%; 
     }
+    #main{
+    max-width: 34%;
+    margin: auto;
+        font-size: 34%;
+    }
 }
+
 @media (max-width: 675px){
     .navbar{
         font-size: 33%; 
     }
-}
-@media (max-width: 650px){
-    .navbar{
-        font-size: 34%; 
+    #main{
+    max-width: 33%;
+    margin: auto;
+        font-size: 33%;
     }
 }
+
+@media (max-width: 650px){
+    .navbar{
+        font-size: 32%; 
+    }
+    #main{
+    max-width: 32%;
+    margin: auto;
+        font-size: 32%; 
+    }
+}
+
 @media (max-width: 600px){
     .navbar{
         font-size: 31%; 
     }
+    #main{
+    max-width: 31%;
+    margin: auto;
+        font-size: 31%;
+    }
 }
+
 @media (max-width: 500px){
     .navbar{
         font-size: 30%; 
+    }
+    #main{
+    max-width: 30%;
+    margin: auto;
+    font-size: 30%; 
+
     }
 }
 
@@ -85,22 +159,24 @@ body{
     background-color: whitesmoke;
     margin-top: -10px;
 }
+
 h1{
     text-align: center;
 }
+
 .navbar{
     margin: auto;
     max-width: 93.75em;
     text-align: center;
     border: solid;
-    border-radius: 25px;
+    border-radius: 25em;
     border-color: darkblue;
     padding:0.9375em;
     padding-bottom: 2.1875em;
     position: fixed;
     top: 0px;
     left: 0px;
-    right: 00px;
+    right: 0px;
     background-color: #EBBE2D;  
 }
 
@@ -117,30 +193,38 @@ h1{
     border-color: darkblue;
     background-color: #0795CE;  
 }
+
 .navbar ul li:hover{
     background-color: blue;
 }
+
 .navbar ul li:onfocus{
     background-color: blue;
 }
+
 .navbar ul li a:hover{
     text-decoration-color: yellow;
 }
+
 li{
     font-size: 1.25em; 
 }
+
 img{
     margin: 10px;
     float: left;
 }
+
 #img2{
     float: right;
 }
+
 #img3{
     margin-left: auto;
     margin-right: auto;
     min-width: 500px;
 }
+
 .navbar a{
     color:white;
     display: block;
@@ -148,15 +232,13 @@ img{
     font-family: sans-serif; 
     width: 6.1875em; 
 }
+
 .navbar a:hover{
     color: #FEFEFE;
 }
 #bottom{
     
 }
-
-
-
 #main{
     margin-top: 130px;
     background-color: white;
@@ -172,4 +254,3 @@ img{
 {
     padding: 3em;
 }
-
