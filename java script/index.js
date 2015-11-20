@@ -1,11 +1,13 @@
 
 function clicky(e) {
     "use strict";
-    document.getElementById("click").style.border = "none";
+    //document.getElementsByClassName("click").style.border = "none";
     e.preventDefault();
+    e.currentTarget.style.border = "solid .25em #EBBE2D";
+    e.currentTarget.style.borderRadius = "1.25em";
     setTimeout(function () {
-        window.location = e.currentTarget.href;
-    }, 1000);
+        window.location = e.target.href;
+    }, 250);
     
 }
 window.onload = function () {
