@@ -58,7 +58,7 @@
         padding: 60%;
     }
     #main{
-    max-width: 60%;
+    max-width: 65%;
     margin: auto;
     font-size: 60%;
         margin-top: 60%;
@@ -71,7 +71,7 @@
         padding: 50%;
     }
     #main{
-    max-width: 50%;
+    max-width: 60%;
     margin: auto;
     font-size:50%;
         margin-top: 50%;
@@ -84,7 +84,7 @@
         padding: 40%;
     }
     #main{
-    max-width: 40%;
+    max-width: 70%;
     font-size:40%;
     margin: auto;
     margin-top: 40%;
@@ -97,7 +97,7 @@
         padding: 35%;
     }
     #main{
-    max-width: 35%;
+    max-width: 79%;
     margin: auto;
     font-size:35%;
     margin-top: 35%;
@@ -110,7 +110,7 @@
         padding: 34%;
     }
     #main{
-    max-width: 34%;
+    max-width: 90%;
     margin: auto;
         font-size: 34%;
         margin-top: 34%;
@@ -123,7 +123,7 @@
         padding: 33%;
     }
     #main{
-    max-width: 33%;
+    max-width: 100%;
     margin: auto;
         font-size: 33%;
         margin-top: 33%;
@@ -136,7 +136,7 @@
         padding: 32%;
     }
     #main{
-    max-width: 32%;
+    max-width: 100%;
     margin: auto;
         font-size: 32%; 
         margin-top: 32%;
@@ -149,7 +149,7 @@
         padding: 31%;
     }
     #main{
-    max-width: 31%;
+    max-width: 100%;
     margin: auto;
         font-size: 31%;
     }
@@ -161,7 +161,7 @@
         padding: 30%;
     }
     #main{
-    max-width: 30%;
+    max-width: 100%;
     margin: auto;
         font-size: 30%; 
     }
@@ -205,7 +205,7 @@ h1{
     font-size: 1.35em;
     border: solid;
     border-radius: 1.25em;
-    border-width: 0.25em;
+    border-width: 0.2em;
     border-color: darkblue;
     background-color: #0795CE;  
 }
@@ -229,6 +229,8 @@ li{
 img{
     margin: 10px;
     float: left;
+    max-width: 100%;
+    height: auto;
 }
 
 #img2{
@@ -239,6 +241,11 @@ img{
     margin-left: auto;
     margin-right: auto;
     min-width: 500px;
+}
+.imgResize
+{
+    max-width: 100%;
+    height: auto;
 }
 
 .navbar a{
@@ -266,7 +273,68 @@ img{
 }
 
 
-#faq
-{
+#faq {
     padding: 3em;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 23.07%;
+}
+
+.col-4 {
+    width: 25%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"]{
+    float: left;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
 }
