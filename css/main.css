@@ -10,11 +10,20 @@
     margin-top: 90%;
     }
     
+
+    }
+    body{
+        font-size: 90%;
+    }
 }
 
 @media (max-width: 1375px){
     .navbar{
+
+        font-size:80%;
+
         font-size:80%; 
+
         padding: 80%;
     }
     #main{
@@ -41,7 +50,11 @@
 
 @media (max-width: 1200px){
     .navbar{
+
+        font-size:70%;
+
         font-size:70%; 
+
         padding: 70%;
     }
     #main{
@@ -163,7 +176,8 @@
     #main{
     max-width: 100%;
     margin: auto;
-        font-size: 30%; 
+    font-size: 30%; 
+
     }
 }
 
@@ -192,7 +206,7 @@ h1{
     position: fixed;
     top: 0px;
     left: 0px;
-    right: 00px;
+    right: 0px;
     background-color: #EBBE2D;  
 }
 
@@ -219,7 +233,7 @@ h1{
 }
 
 .navbar ul li a:hover{
-    text-decoration-color: lightyellow;
+    text-decoration-color: yellow;
 }
 
 li{
@@ -275,6 +289,7 @@ img{
 
 #faq {
     padding: 3em;
+
 }
 
 *{
@@ -337,4 +352,5 @@ img{
     content: "";
     clear: both;
     display: block;
+
 }
