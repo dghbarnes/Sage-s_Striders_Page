@@ -3,7 +3,7 @@ function clicky(e) {
     "use strict";
     //document.getElementsByClassName("click").style.border = "none";
     e.preventDefault();
-    e.currentTarget.style.border = "solid .25em #EBBE2D";
+    e.currentTarget.style.border = "#EBBE2D";
     e.currentTarget.style.borderRadius = "1.25em";
     setTimeout(function () {
         window.location = e.target.href;

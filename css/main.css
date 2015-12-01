@@ -177,7 +177,6 @@
     max-width: 100%;
     margin: auto;
     font-size: 30%; 
-
     }
 }
 
@@ -185,9 +184,10 @@ body{
     margin: auto;
     max-width: 75em; 
     background-color: whitesmoke;
-    max-width: 1200px; 
-    background-color: whitesmoke;
     margin-top: -10px;
+}
+.heading{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 h1{
@@ -267,7 +267,8 @@ img{
     display: block;
     text-decoration: none;
     font-family: sans-serif; 
-    width: 6.1875em; 
+    width: 6.1875em;
+    padding: 0.2em;
 }
 
 .navbar a:hover{
@@ -279,7 +280,7 @@ img{
 #main{
     background-color: white;
     padding: 10px;
-    margin-top: 140px;
+    margin-top: 11%;
 }
 .centerButton{
     margin: auto;
