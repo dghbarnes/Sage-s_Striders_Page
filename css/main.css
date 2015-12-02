@@ -243,7 +243,7 @@ li{
 img{
     margin: 10px;
     float: left;
-    max-width: 100%;
+    width: 40%;
     height: auto;
 }
 
